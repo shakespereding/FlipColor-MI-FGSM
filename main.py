@@ -68,7 +68,7 @@ model.train()
 1
 
 
-# %%
+# %% this is FlipColor-MI-FGSM
 def ifgsm_attack(image, target, epsilon, model, alpha, num_iter, momentum=0.3):
     model.train()
 
